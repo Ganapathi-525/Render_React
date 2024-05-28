@@ -1,0 +1,156 @@
+.father{
+    display: flex;
+    flex-direction: column;
+
+    gap: 40px;
+    /* padding: 10px; */
+    margin: 0px 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+
+
+.child{
+    display: flex;
+    /* gap: 10px; */
+    /* justify-content: space-between; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin-left: 10px; */
+    /* padding: 20px; */
+   
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+
+    /* padding: 140px; */
+ /* padding: 30px; */
+
+    /* align-items: center; */
+}
+.child1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* height: 300px; */
+    margin-top: 30px;
+    margin: 20px;
+
+}
+.child2{
+ width: 250px;
+ height: 300px;
+}
+.child2>img{
+    height: 100%;
+    border-radius: 10%;
+}
+
+.child3{
+    width: 250px;
+    /* border: 1px solid red; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+   /* justify-items: flex-start; */
+   /* justify-items: flex-start; */
+ align-items: flex-start;
+ /* margin: 0px; */
+}
+.child3>p{
+    margin: 10px;
+}
+
+.btn{
+    width: 100%;
+    background-color:rgb(31, 151, 237);
+    border-radius: 10px;
+    height: 40px;
+    color: beige;
+    /* font-size:medium; */
+    /* font-weight: 600; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+ /* margin-top: 20px; */
+
+    /* text-align: center;
+    justify-content: center; */
+}
+.colorNames{
+    color: rgb(47, 217, 255)
+}
+
+
+
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+   */
+
+  
+  .company-info {
+    display: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* text-align: center; */
+    width: 400px;
+    height: 200px;
+    margin: auto;
+
+    /* display: flex; */
+  }
+
+  .company-info>div>p{
+    font-weight: 800;
+  }
+
+  .company-info>div>p>span{
+    font-weight: 300;
+  }
+
+
+  .company-info >div{
+    display: flex;
+    flex-direction: column; 
+    justify-items: flex-start;
+  align-items: flex-start;
+  /* margin: auto; */
+
+
+  }
+
+  .nav{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    gap: 10px;
+  
+  }
+
+.button{
+    height:30px;
+    border-radius: 10px;
+}
+
+.email{
+    text-decoration: underline;
+    color: rgb(0, 0, 255)
+}
