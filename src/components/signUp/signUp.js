@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Signup.css';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Signup() {
   const [name, setName] = useState('');
@@ -100,6 +101,8 @@ function Signup() {
             </select>
           </label>
           <button type="submit">Sign Up</button>
+          <Link to="/Login"> <button  className='Loginbtn' id='Loginbtn'>Login </button></Link>
+          
         </form>
       </div>
     </div>

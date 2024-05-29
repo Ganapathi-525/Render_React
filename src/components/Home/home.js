@@ -50,10 +50,10 @@ const Home = () => {
       };
 
     return (
-        <div>
+        <div className='navpa'>
             <div className='nav'>
             <h1>Home Page</h1>
-            <button className='button' onClick={toggleCompanyInfo}>Company Info</button>
+            <button className='button' onClick={toggleCompanyInfo}><h1>Company Info</h1></button>
             </div>
            
 

@@ -135,6 +135,13 @@
 
   }
 
+  .navpa{
+    /* display: flex; */
+    /* width: 50%; */
+    /* flex-direction: column; */
+    /* margin: auto; */
+  }
+
   .nav{
     display: flex;
     /* flex-direction: column; */
@@ -142,12 +149,19 @@
     justify-content: center;
     /* height: 100vh; */
     gap: 10px;
+    border: 1px solid black;
+    /* margin-left: 400px; */
+    margin: 10px;
+    border-radius: 10px;
+    /* width: 50%; */
   
   }
 
 .button{
-    height:30px;
-    border-radius: 10px;
+    /* height:30px; */
+    /* border-radius: 10px; */
+    border: 0px;
+    background-color:rgb(255, 255, 255);
 }
 
 .email{

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Login() {
   const [name, setName] = useState('');
@@ -47,6 +47,8 @@ function Login() {
             />
           </label>
           <button type="submit">Login</button>
+
+          <Link to="/">  <button id='Signupbtn'>Sign Up</button></Link>
         </form>
         <p>{message}</p>
       </div>
